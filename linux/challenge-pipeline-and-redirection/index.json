@@ -1,0 +1,63 @@
+{
+  "type": "challenge",
+  "title": "Challenge logical, redirect and pipline command.",
+  "description": "This chapter is to  learn how to use logical, redirect and pipline command to operation the text file content.",
+  "difficulty": "Beginner",
+  "time": 15,
+  "details": {
+    "steps": [
+      {
+        "title": "Use the logical command to create the file and add content.",
+        "text": "step1.md",
+        "skills": ["linux/logical"],
+        "verify": [
+          {
+            "name": "Check if three lines are added to the text file.",
+            "file": "verify1.sh",
+            "hint": "Please add three lines content to the text file.",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ]
+      },
+      {
+        "title": "Create a script to manipulate files using logical, redirect, and pipeline commands.",
+        "text": "step2.md",
+        "skills": ["linux/redirect"],
+        "verify": [
+          {
+            "name": " Check if the file content is correct.",
+            "file": "verify2.sh",
+            "hint": "Challenge incomplete, please check your script.",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ]
+      },
+      {
+        "title": "Carry out logical, redirect and pipline command.",
+        "text": "step3.md",
+        "skills": ["linux/pipeline"],
+        "verify": [
+          {
+            "name": "Check if the user has carry out logical, redirect and pipline command.",
+            "file": "verify3.sh",
+            "hint": "Challenge incomplete, please check your .zsh_history file.",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ]
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "webide-ubuntu:2004"
+  }
+}
