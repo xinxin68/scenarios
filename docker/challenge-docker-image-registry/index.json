@@ -34,7 +34,7 @@
           }
         ],
         "skills": ["docker/tag"],
-        "solutions": ["step1-solution.md"]
+        "solutions": ["step2-solution.md"]
       },
       {
         "title": "Challenge login a Docker registry.",
@@ -49,7 +49,7 @@
           }
         ],
         "skills": ["docker/login"],
-        "solutions": ["step1-solution.md"]
+        "solutions": ["step3-solution.md"]
       },
 	  {
         "title": "Challenge run a container.",
@@ -64,7 +64,7 @@
           }
         ],
         "skills": ["docker/push"],
-        "solutions": ["step1-solution.md"]
+        "solutions": ["step4-solution.md"]
       }
     ],
     "intro": {
