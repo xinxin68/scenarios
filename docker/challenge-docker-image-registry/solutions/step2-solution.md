@@ -1,0 +1,1 @@
+Use `docker tag ubuntu:20.04 ubuntu:tag` command to change the image to your repository address.

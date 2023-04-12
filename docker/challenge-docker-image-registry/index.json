@@ -7,23 +7,23 @@
   "details": {
     "steps": [
       {
-        "title": "Pull the Docker registry image.",
+        "title": "Challenge pull docker image.",
         "text": "step1.md",
-        "skills": ["docker/pull"],
         "verify": [
           {
-            "name": "Check if the registry:2 image is present",
+            "name": "Check if the Ubuntu image is present",
             "file": "verify1.sh",
-            "hint": "Please enter the image you want to pull.",
+            "hint": "Please download the Ubuntu container image.",
             "timeout": 5,
             "showstderr": false
           }
-        ]
+        ],
+        "skills": ["docker/pull"],
+        "solutions": ["step1-solution.md"]
       },
       {
-        "title": "Use the `docker tag` command to apply a custom name to a image.",
+        "title": "Challenge apply a custom name to a image.",
         "text": "step2.md",
-        "skills": ["docker/tag"],
         "verify": [
           {
             "name": " Check if the user has tagged the image with a custom name.",
@@ -32,12 +32,13 @@
             "timeout": 5,
             "showstderr": false
           }
-        ]
+        ],
+        "skills": ["docker/tag"],
+        "solutions": ["step1-solution.md"]
       },
       {
-        "title": "Use the docker login command to log in a Docker registry.",
+        "title": "Challenge login a Docker registry.",
         "text": "step3.md",
-        "skills": ["docker/login"],
         "verify": [
           {
             "name": "Check if the user has logged in to a Docker registry.",
@@ -46,12 +47,13 @@
             "timeout": 5,
             "showstderr": false
           }
-        ]
+        ],
+        "skills": ["docker/login"],
+        "solutions": ["step1-solution.md"]
       },
 	  {
-        "title": "Use the docker push command and the docker run command.",
+        "title": "Challenge run a container.",
         "text": "step4.md",
-        "skills": ["docker/push"],
         "verify": [
           {
             "name": "Check if the registry container is running and if the user has pushed the tagged image to a Docker registry.",
@@ -60,7 +62,9 @@
             "timeout":5,
             "showstderr": false
           }
-        ]
+        ],
+        "skills": ["docker/push"],
+        "solutions": ["step1-solution.md"]
       }
     ],
     "intro": {
@@ -72,6 +76,6 @@
     }
   },
   "backend": {
-    "imageid": "webide-instance-ubuntu:2204"
+    "imageid": "vnc-ubuntu:2204"
   }
 }
