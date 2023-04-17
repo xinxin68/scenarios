@@ -1,7 +1,5 @@
 #!/bin/zsh
 
-sudo cd /home/project
-
 # append the contents of "file1.txt" to "file2.txt"
 sudo cat example/file1.txt >> example/file2.txt
 

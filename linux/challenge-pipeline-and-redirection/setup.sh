@@ -1,7 +1,3 @@
-#!/bin/zsh
-sudo cd ~
+#!/bin/bash
 
-touch example.txt
-
-touch output.txt
-
+cd /home/project

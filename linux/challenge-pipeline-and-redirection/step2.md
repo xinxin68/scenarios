@@ -1,4 +1,4 @@
-Challenge: Create a script to manipulate files using logical, redirect, and pipeline commands.
+# Create a script to manipulate files using logical, redirect, and pipeline commands.
 
 ## Introduction
 
@@ -23,10 +23,7 @@ Nice to see you!
 ```
 ## Requirements
 
-Use a logical command to create the file and add the text "Hello, World!" to it.
-Use a redirect command to overwrite the contents of the file with the text "Goodbye, World!".
-Use a pipeline command to append the text "Nice to see you!" to the end of the file.
+- Use a logical command to create the file and add the text "Hello, World!" to it.
+- Use a redirect command to overwrite the contents of the file with the text "Goodbye, World!".
+- Use a pipeline command to append the text "Nice to see you!" to the end of the file.
 
-## Summary
-
-In this challenge, we have created a script to manipulate files using logical, redirect, and pipeline commands. We have also created a shell script to detect whether the user has executed these commands.

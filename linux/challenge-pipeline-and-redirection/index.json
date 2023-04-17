@@ -9,7 +9,6 @@
       {
         "title": "Use the logical command to create the file and add content.",
         "text": "step1.md",
-        "skills": ["linux/logical"],
         "verify": [
           {
             "name": "Check if three lines are added to the text file.",
@@ -18,12 +17,13 @@
             "timeout": 5,
             "showstderr": false
           }
-        ]
+        ],
+        "skills": ["linux/logical"],
+        "solutions": ["step1-solution.md"]
       },
       {
         "title": "Create a script to manipulate files using logical, redirect, and pipeline commands.",
         "text": "step2.md",
-        "skills": ["linux/redirect"],
         "verify": [
           {
             "name": " Check if the file content is correct.",
@@ -32,12 +32,13 @@
             "timeout": 5,
             "showstderr": false
           }
-        ]
+        ],        
+        "skills": ["linux/redirect"],
+        "solutions": ["step2-solution.md"]
       },
       {
         "title": "Carry out logical, redirect and pipline command.",
         "text": "step3.md",
-        "skills": ["linux/pipeline"],
         "verify": [
           {
             "name": "Check if the user has carry out logical, redirect and pipline command.",
@@ -46,7 +47,9 @@
             "timeout": 5,
             "showstderr": false
           }
-        ]
+        ],
+        "skills": ["linux/pipeline","linux/mkdir"],
+        "solutions": ["step3-solution.md"]
       }
     ],
     "intro": {

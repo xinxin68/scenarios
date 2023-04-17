@@ -1,4 +1,4 @@
-Challenge: Use logical operators to test whether a file exists and whether its contents match a specific pattern.
+# Carry out logical, redirect and pipline command.
 
 ## Introduction
 
@@ -57,6 +57,3 @@ The output of the pipeline command should be "6".
 - Use a redirect command to create "output.txt" in the "example" directory and redirect the contents of "file2.txt" to it.
 - Use a pipeline command to count the number of lines in "output.txt".
 
-## Summary
-
-In this challenge, we have created a script to manipulate files and directories using logical, redirect, and pipeline commands. We have also created a shell script to detect whether the user has executed the commands correctly.

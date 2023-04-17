@@ -1,7 +1,5 @@
 #!/bin/zsh
 
-cd /home/project
-
 # check whether the user has executed the commands correctly
 RES=`cat output.txt`
 if [ $RES = "Goodbye, World!
