@@ -76,6 +76,6 @@
     }
   },
   "backend": {
-    "imageid": "vnc-ubuntu:2204"
+    "imageid": "vnc-instance-ubuntu:2204"
   }
 }
