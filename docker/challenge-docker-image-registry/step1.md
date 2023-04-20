@@ -1,4 +1,4 @@
-# Using docker pull command to download a image from a public Docker repository.
+# Pull Docker Container
 
 ## Introduction
 
@@ -11,6 +11,8 @@ The goal of this challenge is to use docker command to pull the ubuntu:20.04 ima
 ## Result Example
 
 Successfully pulled the ubuntu:20.04 image from a public Docker repository.
+
+![challenge-docker-image-registry-1](assets/challenge-docker-image-registry-1.png)
 
 ## Requirements
 

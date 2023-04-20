@@ -1,4 +1,4 @@
-# Using docker command to apply a custom name to an image.
+# Login Docker Container
 
 ## Introduction
 
@@ -14,5 +14,5 @@ The goal of this chapter is to understand how to use the `docker login `command 
 
 ## Requirements
 
-- Register a Docker account.
-- Obtain the corresponding user name and password.
+- Start the ubuntu:20.04 image with port 5000.
+- Login localhost:5000.

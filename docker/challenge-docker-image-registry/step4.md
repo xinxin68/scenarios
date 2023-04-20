@@ -1,4 +1,4 @@
-# Using docker command to upload the tagged image and to run a container from the ubuntu:20.04 image.
+# Push and Run Docker Container
 
 ## Introduction
 
@@ -13,6 +13,8 @@ The `Docker push` command is to push the image in the local warehouse to the rem
 
 - Successfully upload the tagged image to the localhost:5000 private repository.
 - Successfully run a container from the ubuntu:20.04 image.
+
+ ![challenge-docker-image-registry-4](assets/challenge-docker-image-registry-4.png)
 
 ## Requirements
 
