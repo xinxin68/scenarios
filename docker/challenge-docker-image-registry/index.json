@@ -1,13 +1,13 @@
 {
   "type": "challenge",
-  "title": "Using docker commands to  perform common tasks.",
+  "title": "Docker Image and Resigtry",
   "description": "This chapter is to  learn how to use Docker commands to perform common tasks such as pulling the ubuntu:20.04 image, tagging it, logging in to the localhost:5000 Docker registry, pushing the tagged image to the private repository, and running a container from the ubuntu:20.04 image.",
   "difficulty": "Beginner",
   "time": 20,
   "details": {
     "steps": [
       {
-        "title": "Challenge pull docker image.",
+        "title": "Pull Docker Container",
         "text": "step1.md",
         "verify": [
           {
@@ -22,7 +22,7 @@
         "solutions": ["step1-solution.md"]
       },
       {
-        "title": "Challenge apply a custom name to a image.",
+        "title": "Label Docker Container",
         "text": "step2.md",
         "verify": [
           {
@@ -37,7 +37,7 @@
         "solutions": ["step2-solution.md"]
       },
       {
-        "title": "Challenge login a Docker registry.",
+        "title": "Login Docker Container",
         "text": "step3.md",
         "verify": [
           {
@@ -52,7 +52,7 @@
         "solutions": ["step3-solution.md"]
       },
 	  {
-        "title": "Challenge run a container.",
+        "title": "Push and Run Docker Container",
         "text": "step4.md",
         "verify": [
           {

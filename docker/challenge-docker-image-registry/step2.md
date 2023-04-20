@@ -1,4 +1,4 @@
-# Challenge apply a custom name to a image.
+# Label Docker Container
 
 ## Introduction
 

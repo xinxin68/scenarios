@@ -1,4 +1,4 @@
-# Challenge login a Docker registry.
+# Login Docker Container
 
 ## Introduction
 

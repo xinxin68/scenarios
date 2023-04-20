@@ -1,4 +1,4 @@
-# Challenge run a container. 
+# Push and Run Docker Container
 
 ## Introduction
 

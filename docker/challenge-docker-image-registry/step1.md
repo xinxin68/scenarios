@@ -1,4 +1,4 @@
-# Challenge pull docker image.
+# Pull Docker Container
 
 ## Introduction
 
