@@ -1,6 +1,6 @@
 {
   "type": "challenge",
-  "title": "Challenge logical, redirect and pipline command.",
+  "title": "Pipeline and Redirection",
   "description": "This chapter is to  learn how to use logical, redirect and pipline command to operation the text file content.",
   "difficulty": "Beginner",
   "time": 15,
@@ -61,6 +61,6 @@
     }
   },
   "backend": {
-    "imageid": "webide-ubuntu:2004"
+    "imageid": "webide-ubuntu:2204"
   }
 }

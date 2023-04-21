@@ -13,7 +13,6 @@ Create a file named "example.txt" in the current directory. You need to create t
 Swithch directory:
 
 ```
-
 cd /home/project
 
 ```
@@ -22,8 +21,11 @@ The file should contain the following text:
 
 ```
 This is line 1.
+
 This is line 2.
+
 This is line 3.
+
 ```
 
 ## Requirements

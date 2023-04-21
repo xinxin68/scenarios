@@ -24,6 +24,7 @@ This is file 1, line 2.
 This is file 1, line 3.
 
 ```
+
 The contents of "file2.txt" should be:
 
 ```
@@ -35,6 +36,7 @@ This is file 1, line 2.
 This is file 1, line 3.
 
 ```
+
 The contents of "output.txt" should be:
 
 ```
